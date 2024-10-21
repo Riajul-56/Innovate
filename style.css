@@ -1,0 +1,43 @@
+/* =================google font css======================== */
+.paprika {
+  font-family: "Paprika", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* =================google font css======================== */
+
+/* ================= common css start======================= */
+:root{
+    --primary_color:#1BBF00;
+}
+.x_btn{
+    background-color: var(--primary_color);
+    padding: 14px 38px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+/* ================= common css end======================= */
+
+/* ================= navbar css start======================= */
+nav{
+    background-color: #160C6D;
+    border: 1px solid #000000;
+}
+/* ================= navbar css end======================= */
+
