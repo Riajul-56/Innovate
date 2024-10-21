@@ -5,39 +5,165 @@
   font-style: normal;
 }
 
-.open-sans {
+.open_sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+.thin {
+  font-weight: 100;
+}
+.extralight {
+  font-weight: 200;
+}
+.light {
+  font-weight: 300;
+}
+.normal {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.extrabold {
+  font-weight: 800;
+}
+.black {
+  font-weight: 900;
+}
 /* =================google font css======================== */
 
 /* ================= common css start======================= */
-:root{
-    --primary_color:#1BBF00;
+:root {
+  --primary_color: #1bbf00;
+  --secondary_color: #6b62c5;
 }
-.x_btn{
-    background-color: var(--primary_color);
-    padding: 14px 38px;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 600;
+.x_btn {
+  background-color: var(--primary_color);
+  padding: 14px 38px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 /* ================= common css end======================= */
 
 /* ================= navbar css start======================= */
-nav{
-    background-color: #160C6D;
-    border: 1px solid #000000;
+nav {
+  background-color: hsla(246, 80%, 24%, 0.5);
+  border: 1px solid #000000;
+  position: absolute !important ;
+  width: 100%;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.nav-link:hover {
+  color: var(--primary_color) !important;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.navbar-nav {
+  gap: 42px;
 }
 /* ================= navbar css end======================= */
 
+/* ================= banner css start======================= */
+#banner {
+  background: url("../images/banner.png") var(--secondary_color);
+  background-blend-mode: multiply;
+  padding: 246px 0px;
+}
+.banner_content {
+  width: 962px;
+  color: #ffffff;
+  margin: auto;
+}
+.banner_content h1 {
+  font-size: 84px;
+  line-height: 100%;
+  text-align: center;
+  color: #fafafe;
+}
+.banner_content p {
+  font-size: 24px;
+  line-height: 40px;
+  color: #e6e5f3;
+  margin-top: 20px;
+  width: 715px;
+  margin: auto;
+  text-align: center;
+}
+.banner_btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 16px;
+}
+.banner_btn .x_btn:last-child {
+  background-color: transparent;
+  border: 1px solid var(--primary_color);
+}
+/* ================= banner css end======================= */
+
+/* ================= popularity css start======================= */
+#popularity{
+    background: url("../images/element.svg") no-repeat top right;
+}
+.popularity_main{
+    padding-top: 283px;
+    margin-bottom: 285px;
+}
+.popularity_items {
+  text-align: center;
+  position: relative;
+}
+.popularity_items::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(79, 88, 95, 0.2);
+  width: 2px;
+  height: 100%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.popularity_items.last_child::after{
+    width: 0px;
+}
+.popularity_items h2 {
+  font-size: 68px;
+  color: var(--primary_color);
+  line-height: 68%;
+}
+.popularity_items h4 {
+  font-size: 36px;
+  color: #141135;
+  line-height: 40%;
+  margin-top: 24px;
+}
+/* ================= popularity css end======================= */
