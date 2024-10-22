@@ -174,7 +174,7 @@ nav {
 
 /* ================= choose_us css end======================= */
 #choose_us {
-  background: url("/images/element_two.svg") #fdfdfd no-repeat top left;
+  background: url("./images/element_two.svg") #fdfdfd no-repeat top left;
 }
 .choose_us_main {
   padding: 100px;
