@@ -58,7 +58,10 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+.x_btn:hover{
+  color: #ffffff;
 }
 /* ================= common css end======================= */
 
@@ -87,7 +90,7 @@ nav {
 
 /* ================= banner css start======================= */
 #banner {
-  background: url("../images/banner.png") var(--secondary_color);
+  background: url("./images/banner.png") var(--secondary_color);
   background-blend-mode: multiply;
   padding: 246px 0px;
 }
@@ -125,7 +128,7 @@ nav {
 
 /* ================= popularity css start======================= */
 #popularity{
-    background: url("../images/element.svg") no-repeat top right;
+    background: url("./images/element.svg") no-repeat top right;
 }
 .popularity_main{
     padding-top: 283px;
@@ -136,7 +139,7 @@ nav {
   position: relative;
 }
 .popularity_items::after {
-  content: "";
+  content: " ";
   position: absolute;
   right: 0;
   top: 0;
@@ -167,3 +170,8 @@ nav {
   margin-top: 24px;
 }
 /* ================= popularity css end======================= */
+
+/* ================= choose_us css end======================= */
+
+/* ================= choose_us css end======================= */
+
