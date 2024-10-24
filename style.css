@@ -44,7 +44,7 @@
   --primary_color: #1bbf00;
   --secondary_color: #6b62c5;
   --thirdly_color: #726e9e;
-  --fourthly_color:#141135;
+  --fourthly_color: #141135;
 }
 .x_btn {
   background-color: var(--primary_color);
@@ -58,11 +58,45 @@
   font-size: 18px;
   font-weight: 600;
 }
-
+.x_btn2 {
+  padding: 14px 38px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  font-size: 18px;
+  color: var(--fourthly_color);
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.x_btn2::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+  background-color: rgba(27, 191, 0, 0.3);
+  content: "";
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
 a {
   text-decoration: none !important;
 }
 .x_btn:hover {
+  color: #ffffff;
+}
+.x_btn2:hover {
   color: #ffffff;
 }
 /* ================= common css end======================= */
@@ -175,7 +209,7 @@ nav {
 
 /* ================= choose_us css end======================= */
 #choose_us {
-  background: url("./images/element_two.svg")#fdfdfd no-repeat top left;
+  background: url("./images/element_two.svg") #fdfdfd no-repeat top left;
 }
 .choose_us_main {
   padding: 100px 0px;
@@ -249,20 +283,81 @@ nav {
 /* ================= choose_us css end======================= */
 
 /* ================= we_do css start======================= */
-#we_do{
-  background-color: #F6F5FF;
+#we_do {
+  background-color: #f6f5ff;
   padding: 100px 0px;
 }
-.we_do_items h2{
+.we_do_items_first h2 {
   color: var(--fourthly_color);
   font-size: 48px;
 }
-.we_do_items p{
+.we_do_items_first p {
   font-size: 18px;
-  color: #6C7D93;
+  color: #6c7d93;
   line-height: 32px;
   margin-top: 20px;
   margin-bottom: 56px;
+  width: 350px;
 }
-/* ================= we_do css end======================= */
+.we_do_items {
+  padding: 46px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.we_do_items:hover {
+  background-color: #6b62c5;
+}
+.we_do_items h3 {
+  color: var(--fourthly_color);
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 32px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.we_do_items:hover h3 {
+  color: #ffffff;
+}
+.we_do_items p {
+  font-size: 18px;
+  color: var(--thirdly_color);
+  width: 257px;
+  line-height: 30px;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.we_do_items:hover p {
+  color: #ffffff;
+}
+.we_do_items:hover .x_btn2::after{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.we_do_items:hover .x_btn2{
+ color: #F4F4F5;
+}
 
+
+/* ================= we_do css end======================= */
