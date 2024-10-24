@@ -44,6 +44,7 @@
   --primary_color: #1bbf00;
   --secondary_color: #6b62c5;
   --thirdly_color: #726e9e;
+  --fourthly_color:#141135;
 }
 .x_btn {
   background-color: var(--primary_color);
@@ -246,3 +247,22 @@ nav {
   margin-bottom: 41px;
 }
 /* ================= choose_us css end======================= */
+
+/* ================= we_do css start======================= */
+#we_do{
+  background-color: #F6F5FF;
+  padding: 100px 0px;
+}
+.we_do_items h2{
+  color: var(--fourthly_color);
+  font-size: 48px;
+}
+.we_do_items p{
+  font-size: 18px;
+  color: #6C7D93;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 56px;
+}
+/* ================= we_do css end======================= */
+
