@@ -283,9 +283,10 @@ nav {
 /* ================= choose_us css end======================= */
 
 /* ================= we_do css start======================= */
-#we_do {
+.we_do_main {
   background-color: #f6f5ff;
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .we_do_items_first h2 {
   color: var(--fourthly_color);
@@ -362,9 +363,11 @@ nav {
 
 /* ================= impact css start======================= */
 #impact{
+  background: url("./images/vector.svg") #FFFFFF no-repeat bottom right;
+}
+.impact_main{
   padding-top: 91px;
   padding-bottom: 109px;
-  background: url("./images/vector.svg") #FFFFFF no-repeat bottom right;
 }
 .impact_title h2 {
   font-size: 48px;
@@ -426,3 +429,63 @@ nav {
   margin-top: -50px;
 }
 /* ================= impact css end======================= */
+
+/* ================= plan css start======================= */
+#plan{
+  background-color: #F9F9FB;
+  padding: 100px;
+}
+.plan_main{
+  margin-top: 64px;
+}
+.plan_title h2{
+  font-size: 48px;
+  color: var(--fourthly_color);
+  text-align: center;
+}
+.plan_items{
+  text-align: center;
+  padding: 60px 0px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.plan_items.second_child{
+  background-color: var(--secondary_color);
+}
+.plan_items.second_child h3{
+  color: #FAFAFE;
+}
+.plan_items.second_child li{
+  color: #E6E5F3;
+}
+.plan_items h3{
+  font-size: 30px;
+  color: var(--fourthly_color);
+  line-height: 36px;
+  margin-bottom: 26px;
+}
+.plan_items img{
+  width: 100%;
+}
+.plan_items h4{
+  font-size: 48px;
+  color: var(--primary_color);
+  line-height: 50px;
+  margin-top: 10px;
+}
+.plan_items ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 12px;
+}
+.plan_items li{
+  font-size: 18px;
+  color: var(--thirdly_color);
+  line-height: 32px;
+}
+
+/* ================= plan css end======================= */
