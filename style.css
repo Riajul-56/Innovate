@@ -137,7 +137,7 @@ nav {
 }
 .banner_content h1 {
   font-size: 84px;
-  line-height: 100%;
+  line-height: 100px;
   text-align: center;
   color: #fafafe;
 }
@@ -351,13 +351,78 @@ nav {
 .we_do_items:hover p {
   color: #ffffff;
 }
-.we_do_items:hover .x_btn2::after{
+.we_do_items:hover .x_btn2::after {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.3);
 }
-.we_do_items:hover .x_btn2{
- color: #F4F4F5;
+.we_do_items:hover .x_btn2 {
+  color: #f4f4f5;
 }
-
-
 /* ================= we_do css end======================= */
+
+/* ================= impact css start======================= */
+#impact{
+  padding-top: 91px;
+  padding-bottom: 109px;
+  background: url("./images/vector.svg") #FFFFFF no-repeat bottom right;
+}
+.impact_title h2 {
+  font-size: 48px;
+  color: var(--fourthly_color);
+  margin: auto;
+  text-align: center;
+}
+.impact_title p {
+  font-size: 18px;
+  color: var(--thirdly_color);
+  width: 558px;
+  line-height: 30px;
+  margin: auto;
+  text-align: center;
+}
+.impact_items{
+  margin-top: 71px;
+}
+.impact_left{
+  gap: 35px;
+}
+.impact_left img{
+  height: 63px;
+  width: 63px;
+}
+.impact_left h3{
+  font-size: 30px;
+  color: var(--fourthly_color);
+  line-height: 36px;
+}
+.impact_left p{
+  font-size: 18px;
+  color: var(--thirdly_color);
+  line-height: 30px;
+  width: 343px;
+  margin-top: 20px;
+}
+.impact_left_bottom{
+  margin-top: 40px;
+  gap: 35px;
+}
+.impact_left_bottom h3{
+  font-size: 30px;
+  color: var(--fourthly_color);
+  line-height: 36px;
+}
+.impact_left_bottom p{
+  font-size: 18px;
+  color: var(--thirdly_color);
+  line-height: 30px;
+  width: 343px;
+  margin-top: 20px;
+}
+.impact_left_bottom img{
+  height: 63px;
+  width: 63px;
+}
+.impact_right{
+  margin-top: -50px;
+}
+/* ================= impact css end======================= */
