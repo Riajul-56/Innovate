@@ -10,6 +10,11 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .thin {
   font-weight: 100;
 }
@@ -582,4 +587,63 @@ nav {
   color: #000000 !important;
 } */
 /* ================= blog css end======================= */
+
+/* ================= footer css start======================= */
+footer{
+  background-color: #48409C;
+  padding-top: 140px;
+  padding-bottom: 57px;
+}
+.footer_items_right p{
+  font-size: 18px;
+  color: rgba(254, 254, 254, 0.9);
+  width: 449px;
+  margin-top: 44px;
+  line-height: 180%;
+}
+.footer_items{
+  gap: 100px;
+}
+.footer_items_left{
+  gap: 100px;
+}
+.footer_items_left h4{
+  font-size: 24px;
+  line-height: 140%;
+  color: #FEFEFE;
+  margin-bottom: 48px;
+}
+.footer_items_left ul{
+  list-style: none;
+  padding: 0px;
+}
+.footer_items_left li{
+  font-size: 20px;
+  color: #FEFEFE;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+.footer_items_left li:last-child{
+  margin-bottom: 0px;
+}
+.footer_bottom{
+  gap: 535px;
+  margin-top: 80px;
+}
+.footer_bottom_left p{
+  font-size: 18px;
+  color: rgba(254, 254, 254, .9);
+  line-height: 180%;
+}
+.footer_bottom_right{
+  gap: 60px;
+}
+.footer_bottom_right p{
+  font-size: 18px;
+  color: rgba(254, 254, 254, .9);
+  line-height: 180%;
+}
+
+/* ================= footer css end======================= */
+
 
