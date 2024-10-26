@@ -45,6 +45,12 @@
 /* =================google font css======================== */
 
 /* ================= common css start======================= */
+ul{
+  padding: 0px;
+}
+li{
+  list-style: none;
+}
 :root {
   --primary_color: #1bbf00;
   --secondary_color: #6b62c5;
@@ -62,6 +68,11 @@
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
+  transform: 0.4s;
+  -webkit-transform: 0.4s;
+  -moz-transform: 0.4s;
+  -ms-transform: 0.4s;
+  -o-transform: 0.4s;
 }
 .x_btn2 {
   padding: 14px 38px;
@@ -100,6 +111,8 @@ a {
 }
 .x_btn:hover {
   color: #ffffff;
+  background: transparent;
+  border: 1px solid var(--primary_color);
 }
 .x_btn2:hover {
   color: #ffffff;
@@ -160,10 +173,27 @@ nav {
   justify-content: center;
   gap: 20px;
   margin-top: 16px;
+  transform: 0.4s;
+  -webkit-transform: 0.4s;
+  -moz-transform: 0.4s;
+  -ms-transform: 0.4s;
+  -o-transform: 0.4s;
+}
+.banner_btn .x_btn:first-child:hover{
+  background: transparent;
+  border: 1px solid var(--primary_color);
 }
 .banner_btn .x_btn:last-child {
   background-color: transparent;
   border: 1px solid var(--primary_color);
+  transform: 0.4s;
+  -webkit-transform: 0.4s;
+  -moz-transform: 0.4s;
+  -ms-transform: 0.4s;
+  -o-transform: 0.4s;
+}
+.banner_btn .x_btn:last-child:hover{
+background-color: var(--primary_color);
 }
 /* ================= banner css end======================= */
 
@@ -285,6 +315,9 @@ nav {
   margin-top: 9px;
   margin-bottom: 41px;
 }
+.choose_us_right .x_btn:hover{
+  color: var(--fourthly_color) !important;
+}
 /* ================= choose_us css end======================= */
 
 /* ================= we_do css start======================= */
@@ -364,6 +397,10 @@ nav {
 .we_do_items:hover .x_btn2 {
   color: #f4f4f5;
 }
+.we_do_main .x_btn:hover{
+  color: var(--fourthly_color);
+}
+
 /* ================= we_do css end======================= */
 
 /* ================= impact css start======================= */
@@ -377,7 +414,6 @@ nav {
 .impact_title h2 {
   font-size: 48px;
   color: var(--fourthly_color);
-  margin: auto;
   text-align: center;
 }
 .impact_title p {
@@ -494,6 +530,101 @@ nav {
 }
 
 /* ================= plan css end======================= */
+
+/* ================= testimonial css start======================= */
+#testimonial{
+  padding: 100px 0px;
+  background-color: #F8F8FF;
+}
+.testimonial_title h2{
+  text-align: center;
+  font-size: 48px;
+  color: var(--fourthly_color);
+}
+.slide{
+  margin-top: 160px;
+}
+.carousel-inner{
+  overflow: visible;
+}
+.carousel-indicators{
+  display:hidden;
+}
+.testimonial_slide{
+  position: relative;
+  background-color: #ffffff;
+  padding: 119px 146px;
+  padding-bottom: 56px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  text-align: center;
+}
+.testimonial_slide p{
+  font-size: 24px;
+  line-height: 40px;
+  color: var(--thirdly_color);
+  width: 800px;
+  margin: auto;
+  margin-top: 33px;
+  margin-bottom: 48px;
+}
+.testimonial_slide h4{
+  font-size: 25px;
+  line-height: 40px;
+  color: #221A2C;
+  margin-bottom: 4px;
+}
+.testimonial_slide h5{
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--thirdly_color);
+}
+.testimonial_profile{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 147px;
+  height: 147px;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+.testimonial_profile img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.carousel-control-prev{
+  left: -120px;
+}
+.carousel-control-next{
+  right: -180px;
+}
+.carousel-control-prev,.carousel-control-next{
+  background-color: var(--primary_color);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 50%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  color: #ffffff;
+  background-color: var(--primary_color);
+}
+
+/* ================= testimonial css end======================= */
 
 /* ================= blog css end======================= */
 #blog{
@@ -645,5 +776,8 @@ footer{
 }
 
 /* ================= footer css end======================= */
+
+
+
 
 
