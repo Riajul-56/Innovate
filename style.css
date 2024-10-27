@@ -605,7 +605,7 @@ background-color: var(--primary_color);
   left: -120px;
 }
 .carousel-control-next{
-  right: -180px;
+  right: -120px;
 }
 .carousel-control-prev,.carousel-control-next{
   background-color: var(--primary_color);
