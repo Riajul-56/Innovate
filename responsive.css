@@ -1,0 +1,41 @@
+@media (max-width:575px) {
+    .navbar-nav {
+        gap: 0px;
+        padding-left: 20px;
+      }
+    #banner{
+        padding: 150px 0px;
+    }
+    .banner_content {
+       width: auto;
+    }
+    .banner_content h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .banner_content p{
+        font-size: 17px;
+        width: auto;
+        margin-top: 30px;
+    }
+    .banner_btn{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .x_btn{
+        text-align: center;
+    }
+    .popularity_main {
+        padding-top: 46px;
+        padding-bottom: 95px;
+      }
+    .popularity_items::after{
+        width: 0px;        
+    }
+    .popularity_items {
+        margin-top: 50px;
+    }
+    .popularity_items h4{
+        margin-top: 30px;
+    }
+}
