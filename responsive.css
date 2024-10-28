@@ -67,7 +67,7 @@
   }
   /* ================= plan responsive end======================= */
 
-  /* ================= impact responsive end======================= */
+  /* ================= impact responsive start======================= */
   .impact_left {
     flex-direction: column;
     text-align: center;
@@ -102,15 +102,30 @@
 
   /* ================= impact responsive end======================= */
 
-  /* ================= we_do responsive end======================= */
-  .we_do_items_first{
+  /* ================= we_do responsive start======================= */
+  .we_do_items_first {
     text-align: center;
   }
-  .we_do_items{
+  .we_do_items {
     margin-top: 50px;
   }
   .we_do_main {
     padding: 50px 0px;
   }
   /* ================= we_do responsive end======================= */
+
+  /* ================= choose_us responsive start======================= */
+
+  .choose_us_right {
+    text-align: center;
+    margin-top: 25px;
+  }
+  /* ================= choose_us responsive end======================= */
+
+  /* ================= blog responsive start======================= */
+  .blog_items {
+    flex-direction: column;
+  }
+
+  /* ================= blog responsive end======================= */
 }
