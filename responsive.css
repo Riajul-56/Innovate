@@ -32,7 +32,7 @@
   }
   /* ================= banner responsive end======================= */
 
-  /* ================= plan responsive start======================= */
+  /* ================= popularity responsive start======================= */
 
   .popularity_main {
     padding-top: 46px;
@@ -47,7 +47,32 @@
   .popularity_items h4 {
     margin-top: 30px;
   }
-  /* ================= plan responsive end======================= */
+  /* ================= popularity responsive end======================= */
+
+  /* ================= choose_us responsive start======================= */
+  .choose_us_right {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .choose_us_right p {
+    width: auto;
+  }
+  /* ================= choose_us responsive end======================= */
+
+  /* ================= we_do responsive start======================= */
+  .we_do_items_first {
+    text-align: center;
+  }
+  .we_do_items {
+    margin-top: 50px;
+  }
+  .we_do_main {
+    padding: 50px 0px;
+  }
+  .we_do_items_first p {
+    width: auto;
+  }
+  /* ================= we_do responsive end======================= */
 
   /* ================= plan responsive start======================= */
   .plan_title h2 {
@@ -101,28 +126,6 @@
   }
 
   /* ================= impact responsive end======================= */
-
-  /* ================= we_do responsive start======================= */
-  .we_do_items_first {
-    text-align: center;
-  }
-  .we_do_items {
-    margin-top: 50px;
-  }
-  .we_do_main {
-    padding: 50px 0px;
-  }
-  /* ================= we_do responsive end======================= */
-
-  /* ================= choose_us responsive start======================= */
-  .choose_us_right {
-    text-align: center;
-    margin-top: 25px;
-  }
-  .choose_us_right p {
-    width: auto;
-  }
-  /* ================= choose_us responsive end======================= */
 
   /* ================= blog responsive start======================= */
   .blog_items {
