@@ -324,8 +324,8 @@ background-color: var(--primary_color);
 /* ================= we_do css start======================= */
 .we_do_main {
   background-color: #f6f5ff;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0px;
+
 }
 .we_do_items_first h2 {
   color: var(--fourthly_color);
