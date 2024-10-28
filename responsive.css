@@ -1,8 +1,13 @@
 @media (max-width:575px) {
+/* ================= nav responsive start======================= */
     .navbar-nav {
         gap: 0px;
         padding-left: 20px;
       }
+/* ================= nav responsive start======================= */
+
+/* ================= banner responsive start======================= */
+
     #banner{
         padding: 150px 0px;
     }
@@ -25,6 +30,10 @@
     .x_btn{
         text-align: center;
     }
+/* ================= banner responsive end======================= */
+
+/* ================= plan responsive start======================= */
+
     .popularity_main {
         padding-top: 46px;
         padding-bottom: 95px;
@@ -38,16 +47,33 @@
     .popularity_items h4{
         margin-top: 30px;
     }
-    .plan_title h2 {
-        font-size: 26px;
-      }
-      .plan_items li {
-        font-size: 15px;
-      }
-      .plan_items h3 {
-        font-size: 22px;
-      }
-      .plan_items li {
-        font-size: 14px;
-      }
+/* ================= plan responsive end======================= */
+
+/* ================= plan responsive start======================= */
+.plan_title h2 {
+    font-size: 31px;
+  }
+  .plan_items h3 {
+    font-size: 44px !important;
+  }
+  .plan_items li {
+    font-size: 15px;
+  }
+  .plan_items h3 {
+    font-size: 22px;
+  }
+  .plan_items li {
+    font-size: 14px;
+  }
+/* ================= plan responsive end======================= */
+
+/* ================= impact responsive end======================= */
+.impact_left{
+    flex-direction: column;
+}
+.impact_left_bottom{
+    flex-direction: column;
+}
+/* ================= impact responsive end======================= */
+
 }

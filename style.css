@@ -475,7 +475,7 @@ background-color: var(--primary_color);
 /* ================= plan css start======================= */
 #plan{
   background-color: #F9F9FB;
-  padding: 100px;
+  padding: 100px 0px;
 }
 .plan_main{
   margin-top: 64px;
