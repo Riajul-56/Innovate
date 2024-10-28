@@ -115,10 +115,12 @@
   /* ================= we_do responsive end======================= */
 
   /* ================= choose_us responsive start======================= */
-
   .choose_us_right {
     text-align: center;
     margin-top: 25px;
+  }
+  .choose_us_right p {
+    width: auto;
   }
   /* ================= choose_us responsive end======================= */
 
