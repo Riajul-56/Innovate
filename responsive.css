@@ -38,4 +38,16 @@
     .popularity_items h4{
         margin-top: 30px;
     }
+    .plan_title h2 {
+        font-size: 26px;
+      }
+      .plan_items li {
+        font-size: 15px;
+      }
+      .plan_items h3 {
+        font-size: 22px;
+      }
+      .plan_items li {
+        font-size: 14px;
+      }
 }
