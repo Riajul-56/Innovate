@@ -194,6 +194,9 @@
     margin-top: 50px;
     margin-left: 30px;
   }
+  .footer_bottom_right {
+    gap: 40px;
+  }
   /* ================= footer responsive end======================= */
 
 }
