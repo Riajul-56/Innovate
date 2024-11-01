@@ -4,6 +4,20 @@
     gap: 0px;
     padding-left: 20px;
   }
+  .navbar-collapse {
+    background-color: hsla(240, 80%, 24%, 0.995) !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 15px 0px;
+  }
+  .navbar .x_btn {
+    margin-top: -4px;
+    display: inline-block;
+    margin-left: 15px;
+  }
   /* ================= nav responsive start======================= */
 
   /* ================= banner responsive start======================= */
@@ -101,10 +115,9 @@
   /* ================= testimonial responsive start======================= */
   #testimonial {
     padding: 30px 0px;
-
   }
   .testimonial_title h2 {
-    font-size: 31px; 
+    font-size: 31px;
   }
   .testimonial_slide {
     padding: 119px 10px;
@@ -148,8 +161,7 @@
     margin: auto;
   }
   .impact_right img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
     margin-top: 80px;
   }
   .impact_main {
@@ -160,8 +172,33 @@
   /* ================= impact responsive end======================= */
 
   /* ================= blog responsive start======================= */
+  .blog_main {
+    width: 100%;
+  }
+  .blog_title h2 {
+    font-size: 35px;
+  }
   .blog_items {
     flex-direction: column;
+  }
+  .blog_content h3 {
+    font-size: 20px;
+    width: auto;
+    line-height: 35px;
+    letter-spacing: 0px;
+  }
+  .blog_content .d-flex {
+    flex-wrap: wrap;
+  }
+  .blog_img {
+    width: 100%;
+    height: 170px;
+  }
+  .blog_img img {
+    width: 100%;
+  }
+  .x_button {
+    text-align: center;
   }
   /* ================= blog responsive end======================= */
 
@@ -169,20 +206,20 @@
   footer {
     padding-top: 50px;
   }
-  .footer_items{
+  .footer_items {
     flex-direction: column;
     gap: 50px;
   }
-  .footer_items_right{
+  .footer_items_right {
     text-align: center;
   }
-  .footer_items_right p{
+  .footer_items_right p {
     width: 100%;
   }
-  .footer_bottom{
+  .footer_bottom {
     flex-direction: column;
   }
-  .footer_items_left{
+  .footer_items_left {
     flex-direction: column;
   }
   .footer_items_left {
@@ -198,5 +235,4 @@
     gap: 40px;
   }
   /* ================= footer responsive end======================= */
-
 }

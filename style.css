@@ -561,6 +561,9 @@ nav {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   text-align: center;
+  -webkit-box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.302);
+  -moz-box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.302);
+  box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.302);
 }
 .testimonial_slide p {
   font-size: 24px;
@@ -634,6 +637,16 @@ nav {
   background-color: #f9f9fb;
   background: url("./images/vector2.svg") #fdfdfd no-repeat bottom left;
 }
+.blog_main {
+  width: 982px;
+  margin: auto;
+}
+.blog_title h2 {
+  font-size: 50px;
+  line-height: 65px;
+  color: #030314;
+  margin-bottom: 64px;
+}
 .blog_content {
   gap: 35px;
 }
@@ -705,19 +718,7 @@ nav {
   width: 30%;
   background-color: rgba(27, 191, 0, 0.3);
   content: "";
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
 }
-/* .x_button:hover .x_btn3::after {
-  width: 100%;
-  background-color: var(--primary_color);
-}
-.x_btn3:hover  {
-  color: #000000 !important;
-} */
 /* ================= blog css end======================= */
 
 /* ================= footer css start======================= */
