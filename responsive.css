@@ -172,6 +172,9 @@
   /* ================= impact responsive end======================= */
 
   /* ================= blog responsive start======================= */
+  #blog {
+    padding: 50px 0px;
+  }
   .blog_main {
     width: 100%;
   }
@@ -200,6 +203,7 @@
   .x_button {
     text-align: center;
   }
+
   /* ================= blog responsive end======================= */
 
   /* ================= footer responsive start======================= */
@@ -235,4 +239,28 @@
     gap: 40px;
   }
   /* ================= footer responsive end======================= */
+}
+
+@media (max-width: 767px) {
+
+  /* ================= banner responsive start======================= */
+  .banner_content{
+    width: auto;
+  }
+  .banner_content h1{
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .banner_content p {
+    font-size: 24px;
+    line-height: 40px;
+    width: auto;
+  }
+  .banner_btn {
+    gap: 85px;
+    margin-top: 30px;
+  }
+
+  /* ================= banner responsive end======================= */
+
 }
