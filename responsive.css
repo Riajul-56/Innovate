@@ -283,7 +283,6 @@
 
   /* ================= banner responsive end======================= */
 
-  
   /* ================= popularity responsive start======================= */
 
   .popularity_main {
@@ -329,6 +328,46 @@
   }
   /* ================= we_do responsive end======================= */
 
+    /* ================= impact responsive start======================= */
+    .impact_left {
+      flex-direction: column;
+      text-align: center;
+    }
+    .impact_left p {
+      margin: auto;
+    }
+    .impact_title p {
+      font-size: 17px;
+      width: auto;
+      margin-top: 25px;
+    }
+    .impact_title h2 {
+      font-size: 40px;
+    }
+    .impact_left img {
+      margin: auto;
+    }
+    .impact_left_bottom{
+      flex-direction: column;
+      text-align: center;
+    }
+    .impact_left_bottom p{
+      margin: auto;
+    }
+    .impact_left_bottom img {
+      margin: auto;
+    }
+    .impact_right img {
+      width: 100%;
+      margin-top: 80px;
+    }
+    .impact_main {
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+  
+    /* ================= impact responsive end======================= */
+
   /* ================= plan responsive start======================= */
   #plan {
     padding: 45px 0px;
@@ -355,7 +394,7 @@
     padding: 30px 0px;
   }
   .testimonial_title h2 {
-    font-size: 31px;
+    font-size: 37px;
   }
   .testimonial_slide {
     padding: 119px 10px;
@@ -375,46 +414,15 @@
   }
   /* ================= testimonial responsive end======================= */
 
-  /* ================= impact responsive start======================= */
-  .impact_left {
-    flex-direction: column;
-    text-align: center;
-  }
-  .impact_left_bottom {
-    flex-direction: column;
-    text-align: center;
-  }
-  .impact_title p {
-    font-size: 17px;
-    width: auto;
-    margin-top: 25px;
-  }
-  .impact_title h2 {
-    font-size: 40px;
-  }
-  .impact_left img {
-    margin: auto;
-  }
-  .impact_left_bottom img {
-    margin: auto;
-  }
-  .impact_right img {
-    width: 100%;
-    margin-top: 80px;
-  }
-  .impact_main {
-    padding-top: 50px;
-    padding-bottom: 10px;
-  }
-
-  /* ================= impact responsive end======================= */
-
   /* ================= blog responsive start======================= */
   #blog {
     padding: 50px 0px;
   }
   .blog_main {
     width: 100%;
+  }
+  .blog_content {
+    margin-top: 69px;
   }
   .blog_title h2 {
     font-size: 35px;
@@ -462,9 +470,6 @@
     flex-direction: column;
   }
   .footer_items_left {
-    flex-direction: column;
-  }
-  .footer_items_left {
     gap: 50px;
     margin-left: 30px;
   }
@@ -478,4 +483,3 @@
   }
   /* ================= footer responsive end======================= */
 }
-
