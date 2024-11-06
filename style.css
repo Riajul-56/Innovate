@@ -322,9 +322,12 @@ nav {
 /* ================= choose_us css end======================= */
 
 /* ================= we_do css start======================= */
-.we_do_main {
+#we_do {
   background-color: #f6f5ff;
   padding: 100px 0px;
+}
+.we_do_gap{
+  row-gap: 20px;
 }
 .we_do_items_first h2 {
   color: var(--fourthly_color);

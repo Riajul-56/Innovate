@@ -483,3 +483,443 @@
   }
   /* ================= footer responsive end======================= */
 }
+@media (max-width: 991px) {
+  /* ================= nav responsive start======================= */
+  .navbar-nav {
+    gap: 0px;
+    padding-left: 20px;
+  }
+  .navbar-collapse {
+    background-color: hsla(240, 80%, 24%, 0.995) !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 15px 0px;
+  }
+  .navbar .x_btn {
+    margin-top: -4px;
+    display: inline-block;
+    margin-left: 15px;
+  }
+  /* ================= nav responsive start======================= */
+
+  /* ================= banner responsive start======================= */
+  .banner_content {
+    width: auto;
+  }
+  .banner_content h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .banner_content p {
+    font-size: 24px;
+    line-height: 40px;
+    width: auto;
+  }
+  .banner_btn {
+    gap: 65px;
+    margin-top: 30px;
+  }
+
+  /* ================= banner responsive end======================= */
+
+  /* ================= popularity responsive start======================= */
+
+  .popularity_main {
+    padding-top: 46px;
+    padding-bottom: 95px;
+  }
+  .popularity_items::after {
+    width: 0px;
+  }
+  .popularity_items {
+    margin-top: 50px;
+  }
+  .popularity_items h4 {
+    margin-top: 30px;
+  }
+  /* ================= popularity responsive end======================= */
+
+  /* ================= choose_us responsive start======================= */
+  .choose_us_main {
+    padding: 50px 0px;
+  }
+  .choose_us_right {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .choose_us_right p {
+    width: auto;
+  }
+  /* ================= choose_us responsive end======================= */
+
+  /* ================= we_do responsive start======================= */
+  .we_do_items_first {
+    text-align: center;
+  }
+  .we_do_items {
+    margin-top: 50px;
+  }
+  .we_do_main {
+    padding: 50px 0px;
+  }
+  .we_do_items_first p {
+    width: auto;
+  }
+  /* ================= we_do responsive end======================= */
+
+    /* ================= impact responsive start======================= */
+    .impact_left {
+      flex-direction: column;
+      text-align: center;
+    }
+    .impact_left p {
+      margin: auto;
+    }
+    .impact_title p {
+      font-size: 17px;
+      width: auto;
+      margin-top: 25px;
+    }
+    .impact_title h2 {
+      font-size: 40px;
+    }
+    .impact_left img {
+      margin: auto;
+    }
+    .impact_left_bottom{
+      flex-direction: column;
+      text-align: center;
+    }
+    .impact_left_bottom p{
+      margin: auto;
+    }
+    .impact_left_bottom img {
+      margin: auto;
+    }
+    .impact_right img {
+      width: 100%;
+      margin-top: 80px;
+    }
+    .impact_main {
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+  
+    /* ================= impact responsive end======================= */
+
+  /* ================= plan responsive start======================= */
+  #plan {
+    padding: 45px 0px;
+  }
+  .plan_title h2 {
+    font-size: 31px;
+  }
+  .plan_items h3 {
+    font-size: 44px !important;
+  }
+  .plan_items li {
+    font-size: 15px;
+  }
+  .plan_items h3 {
+    font-size: 22px;
+  }
+  .plan_items li {
+    font-size: 14px;
+  }
+  /* ================= plan responsive end======================= */
+
+  /* ================= testimonial responsive start======================= */
+  #testimonial {
+    padding: 30px 0px;
+  }
+  .testimonial_title h2 {
+    font-size: 37px;
+  }
+  .testimonial_slide {
+    padding: 119px 10px;
+  }
+  .testimonial_slide p {
+    width: 100%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-indicators {
+    display: flex !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    background-color: #000000 !important;
+  }
+  /* ================= testimonial responsive end======================= */
+
+  /* ================= blog responsive start======================= */
+  #blog {
+    padding: 50px 0px;
+  }
+  .blog_main {
+    width: 100%;
+  }
+  .blog_content {
+    margin-top: 69px;
+  }
+  .blog_title h2 {
+    font-size: 35px;
+  }
+  .blog_items {
+    flex-direction: column;
+  }
+  .blog_content h3 {
+    font-size: 20px;
+    width: auto;
+    line-height: 35px;
+    letter-spacing: 0px;
+  }
+  .blog_content .d-flex {
+    flex-wrap: wrap;
+  }
+  .blog_img {
+    width: 100%;
+    height: 170px;
+  }
+  .blog_img img {
+    width: 100%;
+  }
+  .x_button {
+    text-align: center;
+  }
+
+  /* ================= blog responsive end======================= */
+
+  /* ================= footer responsive start======================= */
+  footer {
+    padding-top: 50px;
+  }
+  .footer_items {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer_items_right {
+    text-align: center;
+  }
+  .footer_items_right p {
+    width: 100%;
+  }
+  .footer_bottom {
+    flex-direction: column;
+  }
+  .footer_items_left {
+    gap: 50px;
+    margin-left: 30px;
+  }
+  .footer_bottom {
+    gap: 0px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .footer_bottom_right {
+    gap: 40px;
+  }
+  /* ================= footer responsive end======================= */
+}
+@media (max-width: 1199px) {
+
+  /* ================= popularity responsive start======================= */
+
+  .popularity_main {
+    padding-top: 46px;
+    padding-bottom: 95px;
+  }
+  .popularity_items::after {
+    width: 0px;
+  }
+  .popularity_items {
+    margin-top: 50px;
+  }
+  .popularity_items h4 {
+    margin-top: 30px;
+  }
+  /* ================= popularity responsive end======================= */
+
+  /* ================= choose_us responsive start======================= */
+  .choose_us_main {
+    padding: 50px 0px;
+  }
+  .choose_us_right {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .choose_us_right p {
+    width: auto;
+  }
+  /* ================= choose_us responsive end======================= */
+
+  /* ================= we_do responsive start======================= */
+  .we_do_items_first {
+    text-align: center;
+  }
+  .we_do_items {
+    margin-top: 50px;
+  }
+  .we_do_main {
+    padding: 50px 0px;
+  }
+  .we_do_items_first p {
+    width: auto;
+  }
+  /* ================= we_do responsive end======================= */
+
+    /* ================= impact responsive start======================= */
+    .impact_left {
+      flex-direction: column;
+      text-align: center;
+    }
+    .impact_left p {
+      margin: auto;
+    }
+    .impact_title p {
+      font-size: 17px;
+      width: auto;
+      margin-top: 25px;
+    }
+    .impact_title h2 {
+      font-size: 40px;
+    }
+    .impact_left img {
+      margin: auto;
+    }
+    .impact_left_bottom{
+      flex-direction: column;
+      text-align: center;
+    }
+    .impact_left_bottom p{
+      margin: auto;
+    }
+    .impact_left_bottom img {
+      margin: auto;
+    }
+    .impact_right img {
+      width: 100%;
+      margin-top: 80px;
+    }
+    .impact_main {
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+  
+    /* ================= impact responsive end======================= */
+
+  /* ================= plan responsive start======================= */
+  #plan {
+    padding: 45px 0px;
+  }
+  .plan_title h2 {
+    font-size: 31px;
+  }
+  .plan_items h3 {
+    font-size: 44px !important;
+  }
+  .plan_items li {
+    font-size: 15px;
+  }
+  .plan_items h3 {
+    font-size: 22px;
+  }
+  .plan_items li {
+    font-size: 14px;
+  }
+  /* ================= plan responsive end======================= */
+
+  /* ================= testimonial responsive start======================= */
+  #testimonial {
+    padding: 30px 0px;
+  }
+  .testimonial_title h2 {
+    font-size: 37px;
+  }
+  .testimonial_slide {
+    padding: 119px 10px;
+  }
+  .testimonial_slide p {
+    width: 100%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-indicators {
+    display: flex !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    background-color: #000000 !important;
+  }
+  /* ================= testimonial responsive end======================= */
+
+  /* ================= blog responsive start======================= */
+  #blog {
+    padding: 50px 0px;
+  }
+  .blog_main {
+    width: 100%;
+  }
+  .blog_items {
+    gap: 0px;
+  }
+  .blog_content {
+    margin-top: 60px;
+  }
+  .blog_title h2 {
+    font-size: 35px;
+  }
+  .blog_content h3 {
+    font-size: 20px;
+    width: auto;
+    line-height: 35px;
+    letter-spacing: 0px;
+  }
+  .blog_content .d-flex {
+    flex-wrap: wrap;
+  }
+  .blog_img {
+    width: 100%;
+  }
+  .x_button {
+    text-align: center;
+  }
+
+  /* ================= blog responsive end======================= */
+
+  /* ================= footer responsive start======================= */
+  footer {
+    padding-top: 50px;
+  }
+  .footer_items {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer_items_right {
+    text-align: center;
+  }
+  .footer_items_right p {
+    width: 100%;
+  }
+  .footer_bottom {
+    flex-direction: column;
+  }
+  .footer_items_left {
+    gap: 50px;
+    margin-left: 30px;
+  }
+  .footer_bottom {
+    gap: 0px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .footer_bottom_right {
+    gap: 40px;
+  }
+  /* ================= footer responsive end======================= */
+}
